@@ -1,7 +1,3 @@
-Absolutely! Here's a revised version of the README in Markdown format:
-
----
-
 # Bomb Game
 
 ## Overview

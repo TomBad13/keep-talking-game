@@ -20,6 +20,9 @@ Replace `[NUMBER OF WIRES]` with the desired number of wires for the bomb.
 - **Terminal Mode (`1`):** Allows interaction with the game via the terminal/console.
 - **Graphical Interface Mode (`2`):** Provides a graphical user interface for a more visual gaming experience.
 
+### Number of Wires:
+Make sure you are choosing a Number of wires between 3 and 6, or the program won't work.
+
 ## Installation
 1. Clone the repository:
 
@@ -37,11 +40,4 @@ Replace `[NUMBER OF WIRES]` with the desired number of wires for the bomb.
     pip install -r requirements.txt
     ```
 
-Make sure you have Python installed. The game utilizes specific Python libraries, listed in the `requirements.txt` file.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to adjust the content as needed to better suit your game's specifics or repository structure!
+Make sure you have Python installed. The game utilizes specific Python libraries, listed in the `requirements.txt` file

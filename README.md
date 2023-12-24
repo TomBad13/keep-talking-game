@@ -30,12 +30,12 @@ Make sure you are choosing a Number of wires between 3 and 6, or the program won
 2. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/bomb-game.git
+    git clone https://github.com/TomBad13/keep-talking-game.git
     ```
 3. Navigate to the project directory:
 
     ```bash
-    cd bomb-game
+    cd keep-talking-game
     ```
 4. Execute it with:
 

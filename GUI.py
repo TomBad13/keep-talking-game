@@ -4,7 +4,11 @@ import tkinter as tk
 from time import sleep as sl
 import sys
 
-nbdefils = int(sys.argv[1])
+try:
+    nbdefils = int(sys.argv[1])
+except ValueError:
+    print("ValueError: Le nombre de fils doit être un entier.")
+    sys.exit(1)
 if nbdefils < 3:
       nbdefils = 3
 elif nbdefils > 6:

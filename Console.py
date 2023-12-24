@@ -4,7 +4,8 @@ from paint import *
 try:
     fils = int(sys.argv[1])
 except ValueError:
-    raise ValueError("Le nombre de fils doit être un entier")
+    print("ValueError: Le nombre de fils doit être un entier.")
+    sys.exit(1)
 if fils < 3:
     fils = 3
 elif fils > 6:

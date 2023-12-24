@@ -163,10 +163,3 @@ elif comb[0] == 6:
                   print("Gagné!")    
             else:
                   print(f"Vous avez perdu...")
-
-
-
-
-#ERREURS:
-#- couleur_choisi n'est pas l'indice du bon fil à couper
-#- les "else:" des conditions ne sont pas activés aux bons moments"""

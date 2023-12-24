@@ -1,7 +1,7 @@
 # Bomb Game
 
 ## Overview
-This game is a Bomb created in Python based on the Game Keep Talking and Nobody Explodes. Created using Tkinter, you can either use a Graphical Interface or just the Terminal.
+This game is a Bomb created in Python based on the Game Keep Talking and Nobody Explodes. Created using Tkinter, you can either use a Graphical Interface or just the Terminal. Have fun and if you need anything you can contact "tombad2" on Discord!
 
 ## Usage
 To play the game, use the following command in your terminal:

@@ -24,9 +24,9 @@ Replace `[NUMBER OF WIRES]` with the desired number of wires for the bomb.
 Make sure you are choosing a Number of wires between 3 and 6, or the program won't work.
 
 ## Installation
-1. Make sure `git` is installed on your Computer:
+1. Make sure `git` and `Python` are installed on your Computer:
 
-   [Install GIT](https:/git-scm.com/downloads)
+   [Install GIT](https:/git-scm.com/downloads) + [Install Python](https://www.python.org/downloads/)
 2. Clone the repository:
 
     ```bash

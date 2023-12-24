@@ -1,7 +1,7 @@
 # Bomb Game
 
 ## Overview
-This repository contains a simple interactive bomb game implemented in Python.
+This game is a Bomb created in Python based on the Game Keep Talking and Nobody Explodes. Created using Tkinter, you can either use a Graphical Interface or just the Terminal.
 
 ## Usage
 To play the game, use the following command in your terminal:
@@ -24,20 +24,21 @@ Replace `[NUMBER OF WIRES]` with the desired number of wires for the bomb.
 Make sure you are choosing a Number of wires between 3 and 6, or the program won't work.
 
 ## Installation
-1. Clone the repository:
+1. Make sure `git` is installed on your Computer:
+
+   [Install GIT](https:/git-scm.com/downloads)
+2. Clone the repository:
 
     ```bash
     git clone https://github.com/yourusername/bomb-game.git
     ```
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
     ```bash
     cd bomb-game
     ```
-3. Install required dependencies:
+4. Execute it with:
 
     ```bash
-    pip install -r requirements.txt
+    python main.py [MODE] [WIRES]
     ```
-
-Make sure you have Python installed. The game utilizes specific Python libraries, listed in the `requirements.txt` file

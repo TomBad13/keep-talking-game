@@ -1,7 +1,14 @@
 from random import randint
 import sys
 from paint import *
-fils = int(sys.argv[1])
+try:
+    fils = int(sys.argv[1])
+except ValueError:
+    raise ValueError("Le nombre de fils doit être un entier")
+if fils < 3:
+    fils = 3
+elif fils > 6:
+    fils = 6
 
 couleur_dico = {
     0: NOI,

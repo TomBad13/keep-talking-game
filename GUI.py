@@ -239,7 +239,6 @@ fenetre.title("Keep talking and Nobody Explodes")
 fenetre.iconbitmap("Logo.ico")
 fenetre.geometry("920x620")
 
-fenetre.resizable(False, False)
 fenetre.configure(bg='light blue') 
 texte1 = tk.Label(fenetre,text="Keep talking and Nobody Explodes",font=("Courier",20,"bold"),bg="#c5fce1")
 texte1.pack()
